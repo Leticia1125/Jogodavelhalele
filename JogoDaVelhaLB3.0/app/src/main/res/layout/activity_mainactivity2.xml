@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/findo"
+    tools:context=".mainactivity2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fonte"
+        android:gravity="top" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:textSize="20sp"
+
+            android:id="@+id/buttonZero2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/preto"
+            android:onClick="buttonClick" />
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/buttonUm2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/pretorosa"
+            android:onClick="buttonClick"/>
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/buttonDois2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rosa"
+            android:onClick="buttonClick" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/buttonTres2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/preto"
+            android:onClick="buttonClick" />
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/buttonQuatro2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/pretorosa"
+
+            android:onClick="buttonClick" />
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/buttonCinco2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rosa"
+            android:onClick="buttonClick" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/buttonSeis2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/preto"
+            android:onClick="buttonClick" />
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/buttonSete2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/pretorosa"
+            android:onClick="buttonClick" />
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/buttonOito2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/rosa"
+            android:layout_margin="5dp"
+            android:onClick="buttonClick" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:id="@+id/buttonsair2"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:backgroundTint="#ff54a7"
+            android:text="inicio"/>
+    </LinearLayout>
+</LinearLayout>
